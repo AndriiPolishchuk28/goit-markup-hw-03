@@ -1,0 +1,200 @@
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: var(--background-color);
+}
+
+:root {
+    --main-font: "Roboto", sans-sarif;
+    --main-color: #2E2F42;
+    --background-color: #FFFFFF;
+    --logo-color: #4d5ae5;
+    --background-cloud-color: #F4F4FD;
+    --option-text-color: #434455;
+}
+
+/* ul li {
+        list-style-type: none;
+} --------- чому не можна так задати значення, перевірка через класс хоче тільки? */
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+
+.logo_name {
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 800;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: var(--logo-color);
+}
+
+.address {
+    font-style: normal;
+}
+
+.address_info {
+    color: #434455;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.address_info:hover {
+    color: #404bbf;
+}
+
+.address_info:focus {
+    color: #404bbf;
+}
+
+.nav_menu {
+    color: var(--main-color);
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+}
+
+.nav_menu:hover {
+    color: #404bbf;
+}
+
+.nav_menu:focus {
+    color: #404bbf;
+}
+
+.span_logo {
+    color: var(--main-color);
+}
+
+.first_section {
+    background-color: var(--main-color);
+}
+
+.main_title {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
+
+.order_btn {
+    background-color: #4D5AE5;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.order_btn:hover {
+    background-color: #404BBF;
+}
+
+.order_btn:focus {
+    background-color: #404BBF;
+}
+
+.subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--main-color);
+}
+
+.advantages_text {
+    font-size: 16px;
+        line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.third_section_title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--main-color);
+}
+
+.team_title {
+    letter-spacing: 0.02em;
+}
+
+.team_section {
+    background-color: #F4F4FD;
+}
+
+.team_item {
+    background-color: #ffffff;
+}
+
+.team_text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.index_footer {
+    background-color: var(--main-color);
+}
+
+.span_footer {
+    color: #f4f4fd;
+}
+
+.text_footer {
+    line-height: 1.5;
+    color: #F4F4FD;
+    letter-spacing: 0.02em;
+}
+
+.btn_item {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--logo-color);
+    background-color: var(--background-cloud-color);
+    cursor: pointer;
+}
+
+.btn_item:hover {
+    color: #ffffff;
+    background-color: #404BBF
+}
+
+.btn_item:focus {
+    color: #ffffff;
+    background-color: #404BBF
+}
+
+.option_title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--main-color);
+}
+
+.option_text{
+     line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--option-text-color);
+}
+
+.footer_portfolio{
+    background-color: var(--main-color);
+    
+}
+
