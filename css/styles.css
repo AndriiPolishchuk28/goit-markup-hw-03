@@ -23,7 +23,6 @@ img {
 }
 
 .header-wrapper {
-    /* padding: 24px 0; */
     border-bottom: 1px solid #e7e9fc;
 }
 
@@ -60,6 +59,9 @@ img {
     letter-spacing: 0.03em;
     color: var(--logo-color);
     margin-right: 76px;
+}
+
+.logo_padding {
     padding: 24px 0;
 }
 
