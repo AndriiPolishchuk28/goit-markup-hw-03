@@ -66,11 +66,11 @@ img {
 .menu-wrapper {
     display: flex;
     gap: 40px;
+    padding: 24px 0;
 }
 
 .address {
     font-style: normal;
-    padding: 24px 0;
 }
 
 .address_info {
