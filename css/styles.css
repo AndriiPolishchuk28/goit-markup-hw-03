@@ -9,6 +9,10 @@ h1, h2, h3, p, ul {
     margin: 0;
 }
 
+img {
+    display: block;
+}
+
 :root {
     --main-font: "Roboto", sans-sarif;
     --main-color: #2E2F42;
@@ -106,7 +110,6 @@ h1, h2, h3, p, ul {
 
 .first_section {
     background-color: var(--main-color);
-    text-align: center;
 }
 
 .wrapper_first_section {
@@ -120,6 +123,7 @@ h1, h2, h3, p, ul {
     color: #ffffff;
     padding-bottom: 48px;
     max-width: 496px;
+    margin: 0 auto;
 }
 
 .order_btn {
@@ -131,10 +135,13 @@ h1, h2, h3, p, ul {
     letter-spacing: 0.04em;
     color: #ffffff;
     cursor: pointer;
-    padding: 16px 32px;
+    padding: 16px 0;
     border-radius: 4px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     border: none;
+    display: block;
+    margin: 0 auto;
+    min-width: 169px;
 }
 
 .order_btn:hover {
