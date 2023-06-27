@@ -4,6 +4,11 @@ body {
     background-color: var(--background-color);
 }
 
+h1, h2, h3, p, ul {
+    padding: 0;
+    margin: 0;
+}
+
 :root {
     --main-font: "Roboto", sans-sarif;
     --main-color: #2E2F42;
@@ -13,9 +18,25 @@ body {
     --option-text-color: #434455;
 }
 
-/* ul li {
-        list-style-type: none;
-} --------- чому не можна так задати значення, перевірка через класс хоче тільки? */
+.header-wrapper {
+    padding: 25.5px 0;
+}
+
+.container {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.container_wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-wrapper {
+    display: flex;
+    align-items: center;
+}
 
 .link {
     text-decoration: none;
@@ -33,6 +54,11 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     color: var(--logo-color);
+    margin-right: 76px;
+}
+
+.menu-wrapper {
+    display: flex;
 }
 
 .address {
@@ -43,6 +69,10 @@ body {
     color: #434455;
     line-height: 1.5;
     letter-spacing: 0.02em;
+}
+
+.menu-wrapper li:first-child {
+    margin-right: 40px;
 }
 
 .address_info:hover {
@@ -59,6 +89,7 @@ body {
     font-weight: 500;
     letter-spacing: 0.02em;
     line-height: 1.5;
+    margin-right: 40px;
 }
 
 .nav_menu:hover {
@@ -75,14 +106,17 @@ body {
 
 .first_section {
     background-color: var(--main-color);
+    text-align: center;
+    padding-bottom: 188px;
 }
 
 .main_title {
     font-size: 56px;
     line-height: 1.07;
-    text-align: center;
     letter-spacing: 0.02em;
     color: #ffffff;
+    padding-top: 188px;
+    padding-bottom: 48px;
 }
 
 .order_btn {
@@ -94,6 +128,10 @@ body {
     letter-spacing: 0.04em;
     color: #ffffff;
     cursor: pointer;
+    padding: 16px 32px;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    border: none;
 }
 
 .order_btn:hover {
@@ -104,12 +142,41 @@ body {
     background-color: #404BBF;
 }
 
+.advantages_title {
+    position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.advantages_wrapper {
+    display: flex;
+    gap: 24px;
+}
+
+.section_advantages {
+    padding: 120px 0;
+}
+
+.advantages_item {
+    width: calc((100%-72px)/4);
+}
+
 .subtitle {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--main-color);
+    margin-bottom: 8px;
+    padding-top: 32px;
 }
 
 .advantages_text {
@@ -126,8 +193,17 @@ body {
     color: var(--main-color);
 }
 
+.wrapper_img {
+    padding-top: 72px;
+    padding-bottom: 120px;
+    display: flex;
+    gap: 24px;
+}
+
 .team_title {
     letter-spacing: 0.02em;
+    padding-top: 120px;
+    padding-bottom: 72px;
 }
 
 .team_section {
@@ -136,16 +212,25 @@ body {
 
 .team_item {
     background-color: #ffffff;
+    text-align: center;
+}
+
+.team_wrapper {
+    display: flex;
+    gap: 24px;
 }
 
 .team_text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding-bottom: 32px;
 }
 
 .index_footer {
     background-color: var(--main-color);
+    padding-top: 101.5px;
+    padding-bottom: 100px;
 }
 
 .span_footer {
@@ -156,6 +241,8 @@ body {
     line-height: 1.5;
     color: #F4F4FD;
     letter-spacing: 0.02em;
+    margin-top: 17.5px;
+    width: 264px;
 }
 
 .btn_item {
