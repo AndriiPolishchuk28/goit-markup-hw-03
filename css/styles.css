@@ -191,17 +191,21 @@ img {
     letter-spacing: 0.02em;
 }
 
+.third_section {
+    padding-bottom: 120px;
+}
+
 .third_section_title {
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
     text-transform: capitalize;
     color: var(--main-color);
+    margin-top: 72px;
 }
 
 .wrapper_img {
     padding-top: 72px;
-    padding-bottom: 120px;
     display: flex;
     gap: 24px;
 }
