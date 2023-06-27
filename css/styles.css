@@ -60,10 +60,8 @@ img {
     letter-spacing: 0.03em;
     color: var(--logo-color);
     margin-right: 76px;
-}
-
-.logo_padding {
-    padding: 24px 0;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .menu-wrapper {
@@ -203,11 +201,11 @@ img {
     text-align: center;
     text-transform: capitalize;
     color: var(--main-color);
-    margin-top: 72px;
+    margin: 72px 0;
+
 }
 
 .wrapper_img {
-    padding-top: 72px;
     display: flex;
     gap: 24px;
 }
