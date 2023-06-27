@@ -35,7 +35,7 @@ img {
 .container_wrapper {
     display: flex;
     justify-content: space-between;
-    /* align-items: center; */
+    align-items: center;
 }
 
 .nav-wrapper {
@@ -60,8 +60,9 @@ img {
     letter-spacing: 0.03em;
     color: var(--logo-color);
     margin-right: 76px;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    /* padding-top: 24px;
+    padding-bottom: 24px; */
+    padding: 24px 0 24px;
 }
 
 .menu-wrapper {
