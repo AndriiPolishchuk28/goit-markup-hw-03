@@ -35,7 +35,7 @@ img {
 .container_wrapper {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    /* align-items: center; */
 }
 
 .nav-wrapper {
@@ -62,7 +62,10 @@ img {
     margin-right: 76px;
     /* padding-top: 24px;
     padding-bottom: 24px; */
-    padding: 24px 0 24px;
+}
+
+.test {
+    padding: 24px 0;
 }
 
 .menu-wrapper {
