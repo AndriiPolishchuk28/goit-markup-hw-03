@@ -148,7 +148,7 @@ img {
     background-color: #404BBF;
 }
 
-.advantages_title {
+.visually_hidden {
     position: absolute;
   width: 1px;
   height: 1px;
@@ -276,7 +276,16 @@ img {
     color: var(--logo-color);
     background-color: var(--background-cloud-color);
     cursor: pointer;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    border: 1px solid #e7e9fc;
 }
+
+.btn_item:hover,
+.btn_item:focus {
+    border: 1px solid transparent;
+} 
 
 .btn_item:hover {
     color: #ffffff;
@@ -314,19 +323,6 @@ img {
     justify-content: center;
     margin-bottom: 72px;
 }
-
-.portfolio_btn {
-    padding: 12px 24px;
-    border: none;
-    border-radius: 4px;
-    border: 1px solid #e7e9fc;
-}
-
-.portfolio_btn:hover,
-.portfolio_btn:focus {
-    border: 1px solid transparent;
-} 
-
 
 .list_card {
     display: flex;
