@@ -303,5 +303,28 @@ img {
 
 .footer_portfolio{
     background-color: var(--main-color);
-    
+}
+
+.section_portfolio {
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
+
+.menu_portfolio {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    margin-bottom: 72px;
+}
+
+.portfolio_btn {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+}
+
+.list_card {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
 }
