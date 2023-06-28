@@ -35,7 +35,7 @@ img {
 .container_wrapper {
     display: flex;
     justify-content: space-between;
-    /* align-items: center; */
+    align-items: center;
 }
 
 .nav-wrapper {
@@ -60,11 +60,6 @@ img {
     letter-spacing: 0.03em;
     color: var(--logo-color);
     margin-right: 76px;
-    /* padding-top: 24px;
-    padding-bottom: 24px; */
-}
-
-.test {
     padding: 24px 0;
 }
 
@@ -216,12 +211,17 @@ img {
 
 .team_title {
     letter-spacing: 0.02em;
-    padding-top: 120px;
     padding-bottom: 72px;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--main-color);
 }
 
 .team_section {
     background-color: #F4F4FD;
+    padding: 120px 0;
 }
 
 .team_item {
