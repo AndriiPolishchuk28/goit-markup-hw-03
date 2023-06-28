@@ -148,7 +148,7 @@ img {
     background-color: #404BBF;
 }
 
-.visually_hidden {
+.visually-hidden {
     position: absolute;
   width: 1px;
   height: 1px;
