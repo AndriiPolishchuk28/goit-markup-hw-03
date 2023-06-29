@@ -204,8 +204,7 @@ img {
     text-align: center;
     text-transform: capitalize;
     color: var(--main-color);
-    margin: 72px 0;
-
+    margin-bottom: 72px;
 }
 
 .wrapper_img {
@@ -254,6 +253,7 @@ img {
 .link_footer {
     display: inline-block;
     margin-bottom: 16px;
+    padding: 0;
 }
 
 .span_footer {
